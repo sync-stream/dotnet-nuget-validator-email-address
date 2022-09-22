@@ -48,7 +48,8 @@
   <!-- Define the package's NuGet dependencies -->
   <ItemGroup>
 
-
+    <!-- We'll need our hostname validator -->
+    <PackageReference Include="SyncStream.Validator.Hostname" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
